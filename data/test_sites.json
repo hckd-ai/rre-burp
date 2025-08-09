@@ -1,0 +1,300 @@
+{
+  "test_sites": [
+    {
+      "name": "ESPN+",
+      "url": "https://www.espn.com/watch",
+      "description": "Sports streaming platform with live events and on-demand content",
+      "complexity": "high",
+      "features": [
+        "Live sports streaming",
+        "VOD content library",
+        "User authentication",
+        "Multiple sports coverage"
+      ],
+      "security_aspects": [
+        "Streaming DRM",
+        "User authentication",
+        "Content licensing",
+        "Geographic restrictions"
+      ],
+      "testing_focus": "Video streaming, authentication flows, content delivery",
+      "expected_patterns": [
+        "Stream tokens",
+        "User IDs",
+        "Content IDs",
+        "DRM keys"
+      ]
+    },
+    {
+      "name": "DAZN",
+      "url": "https://www.dazn.com",
+      "description": "Global sports streaming service with boxing, soccer, and more",
+      "complexity": "high",
+      "features": [
+        "Live sports events",
+        "VOD library",
+        "Multi-language support",
+        "Mobile apps"
+      ],
+      "security_aspects": [
+        "Streaming security",
+        "User verification",
+        "Content protection",
+        "Payment processing"
+      ],
+      "testing_focus": "Video streaming protocols, user flows, payment integration",
+      "expected_patterns": [
+        "Stream URLs",
+        "Session tokens",
+        "Payment tokens",
+        "Content metadata"
+      ]
+    },
+    {
+      "name": "FuboTV",
+      "url": "https://www.fubo.tv",
+      "description": "Live TV streaming service with sports focus",
+      "complexity": "medium",
+      "features": [
+        "Live TV streaming",
+        "Sports channels",
+        "Cloud DVR",
+        "Multi-screen viewing"
+      ],
+      "security_aspects": [
+        "Stream authentication",
+        "User permissions",
+        "DVR access control",
+        "Device management"
+      ],
+      "testing_focus": "Live streaming, channel switching, DVR functionality",
+      "expected_patterns": [
+        "Channel IDs",
+        "Stream keys",
+        "DVR tokens",
+        "Device IDs"
+      ]
+    },
+    {
+      "name": "Peacock",
+      "url": "https://www.peacocktv.com",
+      "description": "NBCUniversal streaming service with sports and entertainment",
+      "complexity": "medium",
+      "features": [
+        "Live sports",
+        "VOD content",
+        "Premium tiers",
+        "Olympics coverage"
+      ],
+      "security_aspects": [
+        "Content licensing",
+        "User authentication",
+        "Tier restrictions",
+        "Geographic access"
+      ],
+      "testing_focus": "Content tiers, live streaming, user authentication",
+      "expected_patterns": [
+        "Content IDs",
+        "User tiers",
+        "Stream tokens",
+        "License keys"
+      ]
+    },
+    {
+      "name": "Paramount+",
+      "url": "https://www.paramountplus.com",
+      "description": "CBS streaming service with sports and entertainment",
+      "complexity": "medium",
+      "features": [
+        "NFL games",
+        "CBS Sports",
+        "VOD library",
+        "Live news"
+      ],
+      "security_aspects": [
+        "Stream protection",
+        "User verification",
+        "Content licensing",
+        "Geographic restrictions"
+      ],
+      "testing_focus": "NFL streaming, sports content, user flows",
+      "expected_patterns": [
+        "Game IDs",
+        "Stream URLs",
+        "User tokens",
+        "Content licenses"
+      ]
+    },
+    {
+      "name": "YouTube TV",
+      "url": "https://tv.youtube.com",
+      "description": "Live TV streaming with sports channels",
+      "complexity": "high",
+      "features": [
+        "Live TV streaming",
+        "Sports networks",
+        "Cloud DVR",
+        "Family sharing"
+      ],
+      "security_aspects": [
+        "Google authentication",
+        "Stream security",
+        "Family permissions",
+        "DVR access control"
+      ],
+      "testing_focus": "Live streaming, DVR functionality, family sharing",
+      "expected_patterns": [
+        "Channel IDs",
+        "Stream tokens",
+        "Family IDs",
+        "DVR tokens"
+      ]
+    },
+    {
+      "name": "Hulu Live",
+      "url": "https://www.hulu.com/live-tv",
+      "description": "Live TV streaming with sports and entertainment",
+      "complexity": "medium",
+      "features": [
+        "Live sports channels",
+        "VOD library",
+        "Cloud DVR",
+        "Multiple profiles"
+      ],
+      "security_aspects": [
+        "User authentication",
+        "Profile management",
+        "Stream protection",
+        "DVR permissions"
+      ],
+      "testing_focus": "Live streaming, profile switching, DVR access",
+      "expected_patterns": [
+        "Profile IDs",
+        "Stream keys",
+        "DVR tokens",
+        "Channel IDs"
+      ]
+    },
+    {
+      "name": "Sling TV",
+      "url": "https://www.sling.com",
+      "description": "Live TV streaming with customizable sports packages",
+      "complexity": "medium",
+      "features": [
+        "Customizable packages",
+        "Sports add-ons",
+        "Cloud DVR",
+        "Multi-stream viewing"
+      ],
+      "security_aspects": [
+        "Package management",
+        "User authentication",
+        "Stream limits",
+        "Device management"
+      ],
+      "testing_focus": "Package selection, sports add-ons, multi-streaming",
+      "expected_patterns": [
+        "Package IDs",
+        "Add-on tokens",
+        "Stream limits",
+        "Device IDs"
+      ]
+    },
+    {
+      "name": "Tubi",
+      "url": "https://www.tubi.tv",
+      "description": "Free ad-supported streaming with sports content",
+      "complexity": "low",
+      "features": [
+        "Free streaming",
+        "Sports documentaries",
+        "Ad-supported",
+        "No registration required"
+      ],
+      "security_aspects": [
+        "Ad delivery",
+        "Content licensing",
+        "Geographic access",
+        "Viewer tracking"
+      ],
+      "testing_focus": "Free streaming, ad integration, content discovery",
+      "expected_patterns": [
+        "Content IDs",
+        "Ad tokens",
+        "Viewer IDs",
+        "Stream URLs"
+      ]
+    },
+    {
+      "name": "Pluto TV",
+      "url": "https://pluto.tv",
+      "description": "Free live TV streaming with sports channels",
+      "complexity": "low",
+      "features": [
+        "Free live TV",
+        "Sports channels",
+        "VOD content",
+        "No registration"
+      ],
+      "security_aspects": [
+        "Content licensing",
+        "Ad delivery",
+        "Geographic restrictions",
+        "Viewer analytics"
+      ],
+      "testing_focus": "Live TV streaming, channel surfing, content discovery",
+      "expected_patterns": [
+        "Channel IDs",
+        "Stream URLs",
+        "Ad tokens",
+        "Content metadata"
+      ]
+    }
+  ],
+  "testing_categories": {
+    "video_streaming": [
+      "Live sports streaming",
+      "VOD playback",
+      "Stream quality selection",
+      "Multi-bitrate streaming"
+    ],
+    "authentication": [
+      "User login flows",
+      "Subscription verification",
+      "Family sharing",
+      "Device management"
+    ],
+    "content_delivery": [
+      "Stream protection",
+      "DRM implementation",
+      "Geographic restrictions",
+      "Content licensing"
+    ],
+    "user_experience": [
+      "Channel switching",
+      "DVR functionality",
+      "Profile management",
+      "Content discovery"
+    ]
+  },
+  "testing_guidelines": {
+    "ethical_considerations": [
+      "Only test with free content or your own accounts",
+      "Respect streaming terms of service",
+      "Avoid disrupting live streams",
+      "Use test accounts when possible"
+    ],
+    "technical_approach": [
+      "Focus on video detection and streaming analysis",
+      "Test authentication flows and user management",
+      "Analyze content delivery mechanisms",
+      "Map streaming protocols and DRM systems"
+    ],
+    "success_metrics": [
+      "Video content detection",
+      "Streaming protocol identification",
+      "Authentication flow mapping",
+      "Content delivery analysis"
+    ]
+  }
+} 

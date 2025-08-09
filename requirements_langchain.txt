@@ -1,0 +1,27 @@
+# LangChain RRE Integration Dependencies
+# Core LangChain packages
+langchain>=0.1.0
+langchain-openai>=0.0.5
+langchain-core>=0.1.0
+
+# OpenAI integration
+openai>=1.0.0
+
+# Additional LangChain components
+langchain-community>=0.0.10
+
+# Async support
+aiohttp>=3.8.0
+asyncio-mqtt>=0.16.0
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+
+# Site Explorer Dependencies
+playwright>=1.45.0
+PyYAML>=6.0.0 
